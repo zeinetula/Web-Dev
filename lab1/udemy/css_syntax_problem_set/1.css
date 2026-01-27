@@ -1,0 +1,7 @@
+.kitten-image {
+  width: 300px;
+  border-radius: 12px;
+  border: 6px dashed #ff8a7a;
+  padding: 8px;
+  filter: grayscale(100%);
+}
