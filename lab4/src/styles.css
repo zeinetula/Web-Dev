@@ -1,0 +1,22 @@
+/* Global styles: light-brown page background for warm, organic look */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #efe6dc; /* light warm brown / beige */
+  color: #222;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Keep main content area slightly lifted with transparent container */
+.container {
+  background: transparent;
+}
+
+/* Ensure cards keep white background for contrast */
+.card {
+  background: #ffffff;
+}
+/* You can add global styles to this file, and also import other style files */

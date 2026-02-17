@@ -1,0 +1,20 @@
+<div class="container">
+  <header>
+    <div class="brand">
+      <img src="https://upload.wikimedia.org/wikipedia/ru/a/aa/Logo_of_Kaspi_bank.png" alt="Kaspi" class="logo" />
+      <div class="brand-text">
+        <h1>Kaspi Магазин</h1>
+        <p>продукты kaspi.kz</p>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="grid">
+    <app-product-card
+      *ngFor="let p of products "
+      [product]="p"
+    ></app-product-card>
+  </div>
+
+</div>

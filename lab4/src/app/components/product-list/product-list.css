@@ -1,0 +1,46 @@
+.container {
+  max-width: 14000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  color: #1a1a1a;
+}
+
+/* Brand (logo + title) */
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.brand .logo {
+  width: 56px;
+  height: auto;
+  display: block;
+}
+
+.brand-text {
+  text-align: left;
+  line-height: 1;
+}
+
+.brand-text h1 { margin: 0; }
+.brand-text p { margin: 2px 0 0; color: #555; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+
