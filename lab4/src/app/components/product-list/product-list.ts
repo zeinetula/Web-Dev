@@ -37,7 +37,7 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/p44/p27/108964604.png?format=gallery-medium',
         'https://resources.cdn-kaspi.kz/img/m/p/h55/hd8/84353546846238.jpg?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/fc-26-ps5-143170903/'
+      link: 'https://kaspi.kz/shop/p/naushniki-apple-earpods-usb-c-belyi-114086432/?c=750000000'
     },
     {
       id: 3,
@@ -118,7 +118,7 @@ export class ProductListComponent {
         'https://resources.cdn-kaspi.kz/img/m/p/pa4/p2e/58709648.jpeg?format=gallery-medium',
         'https://resources.cdn-kaspi.kz/img/m/p/pda/p1f/58709650.jpeg?format=gallery-medium'
       ],
-      link: 'https://kaspi.kz/shop/p/1-million-tenge-derevo-107479691/'
+      link: 'https://kaspi.kz/shop/p/komplekt-barabanov-8761007-900557668-chernyi-144133573/?c=750000000'
     },
     {
       id: 9,
@@ -151,4 +151,5 @@ export class ProductListComponent {
   ];
 
   
+
 }
