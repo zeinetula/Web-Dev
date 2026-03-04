@@ -1,0 +1,37 @@
+.about-container {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.info-card {
+  border: 1px solid #ddd;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  background: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.info-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.about-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.info-card p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 8px 0;
+}
