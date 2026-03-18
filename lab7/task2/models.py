@@ -1,5 +1,4 @@
 class Superhero:
-    """Базовый класс для всех супергероев."""
 
     def __init__(self, name, power_level, city):
         self.name = name
@@ -7,11 +6,9 @@ class Superhero:
         self.city = city
 
     def use_power(self):
-        """Метод, который будет переопределен в дочерних классах."""
         return f"{self.name} использует базовые навыки героя."
 
     def train(self, boost):
-        """Увеличивает уровень силы героя."""
         self.power_level += boost
         return f"{self.name} потренировался! Новый уровень силы: {self.power_level}"
 
@@ -33,7 +30,6 @@ class Batman(Superhero):
 
 
 class Superman(Superhero):
-    """Класс Супермена, наследуемый от Superhero."""
 
     def __init__(self, name, power_level, city, flight_speed):
         super().__init__(name, power_level, city)
