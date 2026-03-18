@@ -2,8 +2,7 @@ from models import Superhero, Batman, Superman
 
 
 def main():
-    # Создаем экземпляры (объекты) классов
-    hero_generic = Superhero("Гражданин Икс", 10, "Новокузнецк")
+    hero_generic = Superhero("Гражданин Икс", 10, "Шымкент")
     bruce = Batman("Бэтмен", 85, "Готэм", 15)
     clark = Superman("Супермен", 100, "Метрополис", 1200)
 
